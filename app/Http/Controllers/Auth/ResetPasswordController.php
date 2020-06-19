@@ -20,7 +20,6 @@ class ResetPasswordController extends Controller
     | explore this trait and override any methods you wish to tweak.
     |
     */
-
     use ResetsPasswords;
 
     /**
@@ -28,7 +27,7 @@ class ResetPasswordController extends Controller
      *
      * @return string
      */
-    public function redirectTo() : string
+    public function redirectTo(): string
     {
         return RouteServiceProvider::HOME;
     }

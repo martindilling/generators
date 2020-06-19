@@ -20,7 +20,6 @@ class ConfirmPasswordController extends Controller
     | this trait and override any functions that require customization.
     |
     */
-
     use ConfirmsPasswords;
 
     /**
@@ -28,7 +27,7 @@ class ConfirmPasswordController extends Controller
      *
      * @return string
      */
-    public function redirectTo() : string
+    public function redirectTo(): string
     {
         return RouteServiceProvider::HOME;
     }

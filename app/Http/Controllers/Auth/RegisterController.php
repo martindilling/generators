@@ -23,7 +23,6 @@ class RegisterController extends Controller
     | provide this functionality without requiring any additional code.
     |
     */
-
     use RegistersUsers;
 
     /**
@@ -31,7 +30,7 @@ class RegisterController extends Controller
      *
      * @return string
      */
-    public function redirectTo() : string
+    public function redirectTo(): string
     {
         return RouteServiceProvider::HOME;
     }

@@ -20,7 +20,6 @@ class LoginController extends Controller
     | to conveniently provide its functionality to your applications.
     |
     */
-
     use AuthenticatesUsers;
 
     /**
@@ -28,7 +27,7 @@ class LoginController extends Controller
      *
      * @return string
      */
-    public function redirectTo() : string
+    public function redirectTo(): string
     {
         return RouteServiceProvider::HOME;
     }

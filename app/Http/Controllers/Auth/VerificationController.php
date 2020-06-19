@@ -20,7 +20,6 @@ class VerificationController extends Controller
     | be re-sent if the user didn't receive the original email message.
     |
     */
-
     use VerifiesEmails;
 
     /**
@@ -28,7 +27,7 @@ class VerificationController extends Controller
      *
      * @return string
      */
-    public function redirectTo() : string
+    public function redirectTo(): string
     {
         return RouteServiceProvider::HOME;
     }
