@@ -3,7 +3,7 @@
 
 /**
  * A helper file for Laravel, to provide autocomplete information to your IDE
- * Generated for Laravel 7.16.1 on 2020-06-19 23:26:55.
+ * Generated for Laravel 7.16.1 on 2020-06-22 18:52:16.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -15311,26 +15311,6 @@ namespace Illuminate\Support\Facades {
  
 }
 
-namespace Illuminate\Support { 
-
-    /**
-     * 
-     *
-     */ 
-    class Arr {
-         
-    }
-
-    /**
-     * 
-     *
-     */ 
-    class Str {
-         
-    }
- 
-}
-
 namespace Facade\Ignition\Facades { 
 
     /**
@@ -15600,8 +15580,6 @@ namespace Facade\Ignition\Facades {
 namespace  { 
 
     class App extends \Illuminate\Support\Facades\App {}
-
-    class Arr extends \Illuminate\Support\Arr {}
 
     class Artisan extends \Illuminate\Support\Facades\Artisan {}
 
@@ -18536,8 +18514,6 @@ namespace  {
     class Session extends \Illuminate\Support\Facades\Session {}
 
     class Storage extends \Illuminate\Support\Facades\Storage {}
-
-    class Str extends \Illuminate\Support\Str {}
 
     class URL extends \Illuminate\Support\Facades\URL {}
 
